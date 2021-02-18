@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 115%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin: 0;
+    padding: 10px;
+}
+
+#submitButton, #answersSelect, #questionText {
+    padding: 7px;
+    margin: 7px;
+    width: 100%;
+}
+
+#submitButton {
+    display: none;
+}
+
+#answersSelect {
+    display: none;
+}
+
+#questionText {
+    display: none;
+    text-align: center;
+}
+
+#score {
+    display: none;
+}
